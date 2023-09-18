@@ -13,8 +13,8 @@ from linebot.models import (
 app = Flask(__name__)
 
 #The following two sentences are not to be mentioned elsewhere(Channel secret & Channnel token)
-line_bot_api = LineBotApi('xCKZ9x43YFn0eAjAzkG0UYDfCusIW4eaHybfIIE9ZlvY6ihXhomSV71QT3NYlNu1P7kUNbecoVy8pRF+xx4DRPwkiOKBqML5MR7eFm5t7DdZX3+MKVWLYFsvNV3PJ8/jNbOhTRPLld5iquyA4K8YOQdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('357ebff8340bfb1a193475f1f94ad978')
+line_bot_api = LineBotApi('hogehugapiyo')
+handler = WebhookHandler('hogehugapiyo')
 
 @app.route("/")
 def test():
